@@ -43,21 +43,40 @@ Pou fini nou fe apel ak KNN, ki gen yon nivo 'accuracy' de 79%.
 
 
 ## Konparezon model yo
+Apre nou fin aplike yon rechech "hyperparametres" a trave "GridSearchCV". Nou konpare pefomans twa model yo ke nou te itilize yo ki se : Regresyon Lojistik, Decision Tree, KNN.
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
+## Entepretasyon
+Regresyon Lojistik epi Decision Tree jwenn meye rezilta avek yon sko de (82,29%). Sa ki vle di 82% prediksyon sou 100 korek.
+Model KNN lan gen yon presizyon ki pi feb avek (79,17%), sa ki fe li mwens pefoman sou dataset lan.
 
 
 ## Konklizyon
+De meye model yo se Regresyon Lojistik lan ak Decision Tree avek yon nivo presizyon idantik de 82%.
+Sepandan Regresyon Lojistik, se souvan model ki pi adatpe pouw detemine si yon moun gen dwa a yon pre ou pa. Pou tet li senp e pi fasil a antrene, epi li ofri posibilite pou yon bon entepretasyon tou. Pou ansanm rezon sa yo nou tap rekomande itilize Lojistik Regresyon pou deplwaman nan antrepriz lan.
+
+
+
+## Limit
+Nou panse travay la, gen kek limit:
+Premye an lye ak pati tretman done yo, nou panse nou kite de kote kek apwoch ki te ka ban nou yon dataset ki pi potab tankou gade si nou fe fas ak de vale aberan. 
+Dezyem  nan lye ak nonb de model ke nou itilize nan kad iterasyon an, ki pa ditou reprezantatif. Ki donk nou paka di nou gen model optimal lan. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
