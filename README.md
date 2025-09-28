@@ -1,4 +1,4 @@
-![Alt text](imajes/download.jpg)
+![Alt text](images/download.jpg)
 
 
 # Projet_Final3
@@ -10,6 +10,8 @@ Konpayi finansye an bezwen otomatize pwosesis pre li yo sou baz enfomasyon li re
 
 
 ## Business Problem
+![Alt text](images/download.jpg)
+
 The company seeks to automate (in real time) the loan qualifying procedure based on information given by customers while filling out an online application form. It is expected that the development of ML models that can help the company predict loan approval in accelerating decision-making process for determining whether an applicant is eligible for a loan or not.
 
 
