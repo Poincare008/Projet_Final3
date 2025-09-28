@@ -10,7 +10,7 @@ Konpayi finansye an bezwen otomatize pwosesis pre li yo sou baz enfomasyon li re
 
 
 ## Business Problem
-![Alt text](images/download.jpg)
+![Alt text](images/otomat.jpeg)
 
 The company seeks to automate (in real time) the loan qualifying procedure based on information given by customers while filling out an online application form. It is expected that the development of ML models that can help the company predict loan approval in accelerating decision-making process for determining whether an applicant is eligible for a loan or not.
 
@@ -19,7 +19,7 @@ The company seeks to automate (in real time) the loan qualifying procedure based
 
 
 ## The Data
-This dataset profiles individuals who have received a loan and those who have not. It provides information across 13 columns and 615 rows on their education levels, genders, credit histories, and more. As part of this project, we will use this data to try to solve a classification problem.
+This [dataset](https://www.kaggle.com/datasets/ninzaami/loan-predication) profiles individuals who have received a loan and those who have not. It provides information across 13 columns and 615 rows on their education levels, genders, credit histories, and more. As part of this project, we will use this data to try to solve a classification problem.
 
 
 
@@ -34,18 +34,24 @@ Avan nou rive nan faz modelizasyon, nou fe kek tretman nan done yo. Pou komanse 
 Pou nou rive a chwa model optimal lan, nou itilize yon apwoch iteratif ki konsiste a chwazi plize algoritm epi evalye yo sou baz "Accuracy". Pou nou rive fe chwa meye paramet nan chak model, nou itilize Gridsearch.
 Premye model nou fe apel se Lojistik Regresyon,apre antrenman model lan gen yon nivo 'accuracy' 82.29 %
 
+![Alt text](images/output.png)
+
 
 Dezyem model nou itilize se Decision Tree, apre antrenman model lan gen yon nivo 'accuracy' 82.29 % tou.
 
+![Alt text](images/output.png)
 
 
 
 Pou fini nou fe apel ak KNN, ki gen yon nivo 'accuracy' de 79%.
 
+![Alt text](images/knn.png)
 
 
 ## Konparezon model yo
 Apre nou fin aplike yon rechech "hyperparametres" a trave "GridSearchCV". Nou konpare pefomans twa model yo ke nou te itilize yo ki se : Regresyon Lojistik, Decision Tree, KNN.
+
+![Alt text](images/Screenshot.png)
 
 
 
