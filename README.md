@@ -1,4 +1,4 @@
-
+![Alt text](imajes/film.webp)
 
 
 # Projet_Final3
@@ -50,7 +50,7 @@ Apre nou fin aplike yon rechech "hyperparametres" a trave "GridSearchCV". Nou ko
 
 
 ## Entepretasyon
-Regresyon Lojistik epi Decision Tree jwenn meye rezilta avek yon sko de (82,29%). Sa ki vle di 82% prediksyon sou 100 korek.
+Regresyon Lojistik epi Decision Tree jwenn meye rezilta avek yon sko de (82,29%). Sa ki vle di sou chak 82 prediksyon 100 korek.
 Model KNN lan gen yon presizyon ki pi feb avek (79,17%), sa ki fe li mwens pefoman sou dataset lan.
 
 
